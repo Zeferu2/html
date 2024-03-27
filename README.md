@@ -4,7 +4,8 @@ Step 1.1: check status if the displayed message shows red implies modified files
 Step 2: add the changes. git add <file1, file2 etc>
 Step 2.1: check status if the displayed message shows green implies modified files are added. git status
 Step 3: commit the changes. git commit -m "message, example instructions added in the readme.md"
-Step 4: create a new branch if you are in the main branch or if you finish your task on specific branch. git branch <branch name, example feature-readme> 
+Step 4: create a new branch if you are in the main branch or if you finish your task on specific branch. git checkout -b new branch name
+git branch <branch name, example feature-readme> 
 Step 4.0: To know your current branch, type git branch.
 Step 4.0.1: The branch highlighted in green is your current branch.
 Step 4.1: checkout to a new branch. git checkout feature-readme
